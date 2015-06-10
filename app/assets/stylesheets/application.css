@@ -49,6 +49,7 @@ font-family: Roboto, sans-serif;
  }
 
 .ikonki{padding-right:25px;
+  padding-bottom:10px;
 }
 .ikonki ul li{list-style-type:none;
 display:inline-block;
