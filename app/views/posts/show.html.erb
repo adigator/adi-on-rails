@@ -1,0 +1,40 @@
+<div class="post">
+<div class="containerbox">
+<h1><%= @post.title %></h1>
+
+<%= @post.text %> 
+		
+<h2>Komentarze</h2>
+
+<% @post.comments.each do |comment| %>
+<div class="kom">
+  <p style="font-weight: bold"><%= comment.autor %></p>
+<p><%= comment.text %></p>
+<p style="color: #969696">Dodano <%= time_ago_in_words comment.created_at %> temu </p>
+
+  <% if current_user && ((current_user.nick == comment.autor) || current_user.admin?)  %> 
+  <p><%= link_to "Usun komentarz", [@post, comment], :method => :delete, :data => {:confirm => "czy na pewno?"}, :style => "color: #FF6666"%></p>
+  <% end %>
+  
+</div>
+<% end %>
+
+ <% if current_user  %> 
+<%= form_for [@post, @post.comments.build] do |f| %>
+  
+  <%= f.hidden_field :autor, :value =>current_user.nick %>
+   
+<p><%= f.text_area :text, :size => '70x5' %></p>
+<p><%= f.submit "Skomentuj", :class =>"agawa"%></p>
+<% end %>
+<% end %>
+		
+<p>
+		<%= link_to "Powrot", '/blog', :class => "gugu" %>
+  <% if current_user && current_user.admin? %>  
+		<%= link_to "Edytuj", edit_post_path(@post), :class => "gugu"  %>
+		<%= link_to "Usun", @post, :method => :delete, :data => {:confirm => "czy na pewno?"}, :class => "gugu"  %>
+  <% end %>
+</p>
+</div>
+</div>

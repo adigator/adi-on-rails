@@ -1,0 +1,26 @@
+<div class="srlg">
+
+<div class="formularzyk">
+<h2>Utwórz konto</h2>
+<div class="formik" >
+  <%= form_for(@user, html: { class: 'user-form' }) do |f| %>
+  <div>
+    <%= f.label :Nick %>
+    <%= f.text_field :nick, :placeholder => "Nick" %></div>
+  
+  <div>
+    <%= f.label :imie %>
+    <%= f.text_field :imie, :placeholder => "Imię" %></div>
+  
+  <div>
+    <%= f.label :email %>
+    <%= f.email_field :email, :placeholder => "Email" %></div>
+  
+  <div style="margin-bottom:40px;">
+    <%= f.label :hasło %>
+    <%= f.password_field :password, :placeholder => "Hasło" %></div>
+  <%= f.submit "Stwórz konto", class: "njupo" %>
+  <% end %>
+		</div>
+</div>
+</div>

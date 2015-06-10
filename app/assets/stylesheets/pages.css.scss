@@ -1,0 +1,271 @@
+    .allme{ font-family: Roboto, sans-serif;
+    }   
+    
+    .pofoto{padding-left:50px;
+    				padding-right:50px;
+            text-align:center;
+            padding-top:15px;
+            padding-bottom:15px;}
+    
+    .pofoto p{
+       font-size: 18px;
+  font-weight: 50;
+  color:dimgray;}
+  
+ .main { 
+clear:both;
+  background: url(https://static.pexels.com/photos/5004/black-and-white-industry-factory-lamp.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  min-height: 600px;
+  box-sizing: border-box;
+ padding-top:70px;
+}
+
+.btn {
+  -webkit-border-radius: 3;
+  -moz-border-radius: 3;
+  border-radius: 3px;
+  text-shadow: 1px 3px 5px #666666;
+  font-family: Roboto, sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  background: #207ebd;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #486475;
+  text-decoration: none;
+}
+.mcontainer{position:relative;
+top:150px;
+  line-height: 20px;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px; 
+  text-align: center;  
+  width: 750px;
+}
+
+.mcontainer h1{color: rgb(255, 255, 255);
+ 
+  font-family: Roboto, sans-serif;
+  font-size: 50px;
+  font-weight: 100;
+   display: block;
+   
+  float:right;
+  height: 55px;  
+  line-height: 55px;
+  text-align: center;
+  text-shadow: rgba(0, 0, 0, 0.4) 0px 2px 3px;
+  margin-right:100px;
+  
+}
+.mcontainer p{ display:block;
+float:right;
+clear:both;
+  margin-right:245px;
+ 
+}
+.mcontainer a{ font-family: Roboto, sans-serif;
+text-decoration: none;
+color:#FFF;}
+
+.dcontainer{text-align:center;
+height:80px;
+ font-family: Roboto, sans-serif;
+  font-size: 35px;
+  font-weight: 80;
+  }
+  
+  .dcontainer p{
+  font-size: 20px;
+  font-weight: 50;
+  color:dimgray;
+  }
+  
+.srkon { 
+clear:both;
+  background: url(https://static.pexels.com/photos/4780/black-and-white-street-police-statue.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  min-height: 600px;
+  box-sizing: border-box;
+ padding-top:70px;
+ padding-bottom:40px;
+}
+
+.formularzyk {background:#fff;
+min-height:450px;
+width:600px;
+border-radius:12px;
+margin:0px auto;
+margin-top:40px;
+padding-bottom:25px;
+}
+
+.formik{margin: 0px auto;
+margin-top:50px;
+
+}
+
+.formularzyk h2{text-align:center;
+padding-top:25px;
+}
+
+.dzieny {background:#fff;height:150px;
+width:500px;
+border-radius:12px;
+margin:0px auto;
+margin-top:150px;}
+
+.dzieny h1{
+	text-align:center;
+	line-height:150px;}
+	
+	
+.user-form{
+			> div{
+					display: block;
+					margin: 1em 0;
+				}
+
+			label {display:inline-block;
+						margin-right: 50px;
+						width:80px;
+						padding-left:25px;
+					&:after{
+										content: ':';
+										}
+						}
+						textarea{margin-left:135px;
+						resize:none;
+						}
+				.actions {
+						padding-left:25px;
+						 
+				}
+				
+			}
+.field_with_errors{
+display:inline;
+input, textarea{
+							border: 1px solid #EF4F4F;
+	}
+}
+.goramnie { 
+clear:both;
+  background: url(https://static.pexels.com/photos/2996/parking-parking-lot-underground-garage.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+  min-height: 400px;
+  box-sizing: border-box;
+ padding-top:70px;
+ padding-bottom:40px;
+}
+
+.zawartosgory{
+			font-size: 20px;
+  		font-weight: 50;
+ 			 color:#f9f9f9;}
+
+.n1{
+  padding-left:75px;
+  font-size: 30px;
+  padding-top:120px;}
+ 
+ .n1 span{font-size:45px;
+  margin-left:10px;
+  background-color:#f9f9f9;
+  color:#000;}
+ 
+ .n2{font-size:26px;
+  padding-left:25px;
+  margin-top:50px;}
+
+.foteczka{float:right;
+padding-top:80px;
+margin-right:80px;}
+
+.foteczka img{
+height:180px;
+width:140px;
+}
+
+.pozyc { 
+	clear:both;
+  background: 	url(https://static.pexels.com/photos/4241/cold-snow-black-and-white-road.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;  
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  min-height: 250px;
+  box-sizing: border-box;
+ }
+ 
+ .inter{font-size: 30px;
+ color:#f9f9f9;
+ padding-top:90px;
+ padding-left:40px;}
+ .inter span{font-size:45px;
+ background-color:#f9f9f9;
+  color:#000;
+  margin-left:10px;}
+  
+  .jezyki{margin:0px auto;
+  width:50%;}
+  
+  .welse { 
+	clear:both;
+  background: 	url(https://static.pexels.com/photos/1151/black-and-white-hills-fence-border.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;  
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  min-height: 250px;
+  box-sizing: border-box;
+ }
+ 
+ .coje{font-size: 30px;
+ color:#f9f9f9;
+ display:block;
+ float:right;
+ padding-right:80px;
+ padding-top:80px;}
+ .coje span{font-size:45px;
+ background-color:#f9f9f9;
+  color:#000;
+  margin-left:10px;}
+  
+  .woln { 
+	clear:both;
+  background: 	url(https://static.pexels.com/photos/1770/technology-music-sound-audio.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;  
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  min-height: 250px;
+  box-sizing: border-box;
+ }
+ 
+ .czwoln{font-size: 30px;
+ color:#f9f9f9;
+ display:block;
+ text-align:center;
+ padding-top:80px;
+ }
+ .czwoln span{font-size:45px;
+ background-color:#f9f9f9;
+  color:#000;
+  margin-left:10px;}

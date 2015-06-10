@@ -1,0 +1,18 @@
+<div class="post">
+<div class="containerbox">
+<h1>Witam na moim blogu!</h1>
+  <% if current_user && current_user.admin? %>
+  
+  <%= link_to "Nowy post", 'blog/nowypost', :class => "njupo" %>
+  <% end %>
+<% @posts.each do |post| %>
+	<h2><%= link_to post.title, post %></h2>
+	<p style="color: #969696">Dodano <%= time_ago_in_words post.created_at %> temu</p>
+	<p >
+	 <%= truncate post.text , :length => 150 %><br />
+    <%= link_to "Czytaj wiecej", post, :style => 'font-weight:bold'  %>
+	</p>
+<% end %>
+
+</div>
+</div>

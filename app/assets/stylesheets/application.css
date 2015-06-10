@@ -1,0 +1,98 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+.nawi{height:70px;
+position: fixed;
+background:#fff;
+width:100%;
+z-index:2;
+overflow:hidden;
+
+}                                                                             
+      .nawi ul li{list-style-type:none;
+display:inline-block;
+text-align:center;}
+  .nawi ul li a{
+  font-family: Roboto, sans-serif;
+  color: #000;
+  font-size: 27px;
+  padding-right:40px;
+  line-height:70px;
+  text-decoration:none ;
+  background-color: #fff;
+ 
+}      
+.nawi ul li:hover{
+text-shadow: 1px 3px 5px #666666;
+}     
+.nick{
+font-family: Roboto, sans-serif;
+  color: #000;
+  font-size: 27px;
+  padding-right:40px;
+  padding-left:120px;
+  line-height:70px;
+  text-decoration:none ;
+  background-color: #fff;
+ }
+
+.ikonki{padding-right:25px;
+}
+.ikonki ul li{list-style-type:none;
+display:inline-block;
+float:right;
+padding-left:25px;
+
+}
+.ikonki ul li a{background-color: #fff;}
+.formik{margin: 0px auto;
+margin-top:50px;
+
+}
+.user-form{
+			> div{
+					display: block;
+					margin: 1em 0;
+				}
+
+			label {display:inline-block;
+						margin-right: 50px;
+						width:80px;
+						padding-left:25px;
+					&:after{
+										content: ':';
+										}
+						}
+						textarea{margin-left:135px;
+						resize:none;
+						}
+				.actions {
+						padding-left:25px;
+						 
+				}
+				
+			}
+.srlg { 
+clear:both;
+  background: url(https://static.pexels.com/photos/6634/art-graffiti-wall-dublin.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  min-height: 600px;
+  box-sizing: border-box;
+ padding-top:70px;
+ padding-bottom:40px;
+}

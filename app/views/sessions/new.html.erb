@@ -1,0 +1,19 @@
+<div class="srlg"  >
+
+<div class="formularzyk" style="min-height:200px;">
+<h2>Zaloguj sie</h2>
+<div class="formik">
+  <%= form_for(:session, url: logowanie_path, html: { class: 'user-form' }) do |f| %>
+  <div>
+    <%= f.label :email %>
+    <%= f.email_field :email, :placeholder => "Email" %>
+    </div>
+      <div style="margin-bottom:40px">
+  <%= f.label :Hasło %>
+  <%= f.password_field :password, :placeholder => "Hasło" %>
+        </div>
+  <%= f.submit "Zaloguj sie", class: "njupo" %>
+  <% end %>
+		</div>
+</div>
+</div>
