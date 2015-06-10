@@ -14,7 +14,7 @@ Rails.application.routes.draw do
 
   # Example of named route that can be invoked with purchase_url(id: product.id)
   #   get 'products/:id/purchase' => 'catalog#purchase', as: :purchase
-   resources :kontakty, only: [:index] do
+   resources :contacts, only: [:index] do
     collection do
       post :submit_form
       get :thanks
@@ -22,7 +22,7 @@ Rails.application.routes.draw do
   end
 root 'pages#welcome'
   get 'omnie' => 'pages#about'
-get 'kontakt' => 'kontakty#index'
+get 'kontakt' => 'contacts#index'
 get 'blog' => 'posts#index'
 get 'blog/nowypost' => 'posts#new'
   get 'rejestracja' => 'users#new'

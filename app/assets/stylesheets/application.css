@@ -49,7 +49,7 @@ font-family: Roboto, sans-serif;
  }
 
 .ikonki{padding-right:25px;
-  padding-bottom:25px;
+  margin-bottom:30px;
 }
 .ikonki ul li{list-style-type:none;
 display:inline-block;

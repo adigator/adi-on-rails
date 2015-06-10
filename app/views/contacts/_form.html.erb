@@ -1,0 +1,18 @@
+<%= form_for @contact_form,  url: submit_form_contacts_path, html: { class: 'user-form' } do |f| %>
+<div>
+		<%= f.label :imie %>
+		<%= f.text_field :name %>
+</div>
+<div>
+		<%= f.label :email %>
+		<%= f.email_field :email %>
+</div>
+<div>
+		<%= f.label :wiadomosc %>
+		<br />
+		<%= f.text_area :message, :size => '44x10' %>
+</div>
+<div class="actions">
+		<%= f.submit 'Wyślij', :class => "agawa" %>
+</div>
+<% end %>
